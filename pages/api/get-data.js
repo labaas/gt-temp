@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const url = 'https://ds-mews-connector.herokuapp.com/graphql';
+const url = 'https://ds-mews-connector.herokuapp.com/api/graphql';
 
 let query = `
   query GetMewsData(
